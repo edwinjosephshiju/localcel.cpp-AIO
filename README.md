@@ -86,4 +86,4 @@ Distributed under the **MIT License**. See `LICENSE` for details.
 ## ⭐ Support
 If you find this project useful, please give it a star!
 
-*Based on the original [Localcel.cpp](https://github.com/edwinjosephshiju/Localcel) architecture.*
+*Based on the original [localcel.cpp](https://github.com/edwinjosephshiju/localcel.cpp) architecture.*
