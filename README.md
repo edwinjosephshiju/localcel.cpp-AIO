@@ -1,4 +1,4 @@
-# Localcel.cpp AIO
+# Localcel.cpp (All-in-One / AIO)
 
 > A modular C++20 Win32 desktop app for managing local server apps, tunnels, and deployment workflows.
 
@@ -30,7 +30,7 @@ src/
 
 ## Runtime behavior
 
-- Uses a user config at: `%USERPROFILE%\.localcel\config.json`
+- Uses a user config at: `%USERPROFILE%\.localcel\config.json` (for example: `C:\Users\<YourUser>\.localcel\config.json`)
 - Creates and manages a `localcel_workspace` with:
   - `apps/` (per-app config)
   - `logs/` (runtime logs)
@@ -49,7 +49,7 @@ This repository is currently Windows/MSVC-oriented.
 - `build.cpp` (script-style builder)
 - `localcel_all_in_one.cpp` (single translation unit build)
 
-> Note: current build paths/scripts reference resource files that are not included in this repository snapshot. If you are building from source, ensure required `.rc`/resource assets are available or adjust the build commands accordingly.
+> Note: current build paths/scripts reference Windows resource inputs that are not included in this repository snapshot (for example `resource.rc`, expected by the build commands). If you are building from source, add the required resource files in the expected locations or adjust the build commands accordingly.
 
 ## Running
 
