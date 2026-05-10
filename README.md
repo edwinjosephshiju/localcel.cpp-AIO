@@ -49,7 +49,8 @@ This repository is currently Windows/MSVC-oriented.
 - `build.cpp` (script-style builder)
 - `localcel_all_in_one.cpp` (single translation unit build)
 
-> Note: in the current repository state, build paths/scripts reference Windows resource inputs that are not included. To build from source, add a `resource.rc` at the repository root (with resources matching IDs used by the app, such as `IDI_APP_ICON` and `IDI_APP_LOGO`) and update script paths if your local layout differs.
+> Note: in the current repository state, build paths/scripts reference Windows resource inputs that are not included.  
+> To build from source, add a `resource.rc` at the repository root (with resources matching IDs used by the app, such as `IDI_APP_ICON` and `IDI_APP_LOGO`) and update script paths if your local layout differs.
 
 ## Running
 
