@@ -73,7 +73,7 @@ cl build.cpp /std:c++20 /EHsc
 ### 2. Manual Compilation
 ```powershell
 rc resource.rc
-cl localcel_all_in_one.cpp resource.res /std:c++20 /EHsc /O2 /I"src" /Fe:Localcel.exe user32.lib kernel32.lib gdi32.lib comctl32.lib shell32.lib ole32.lib ws2_32.lib shlwapi.lib dwmapi.lib uxtheme.lib advapi32.lib gdiplus.lib
+cl localcel_all_in_one.cpp resource.res /std:c++20 /EHsc /O2 /I"src" /Fe:dist/Localcel.exe user32.lib kernel32.lib gdi32.lib comctl32.lib shell32.lib ole32.lib ws2_32.lib shlwapi.lib dwmapi.lib uxtheme.lib advapi32.lib gdiplus.lib
 ```
 
 ---

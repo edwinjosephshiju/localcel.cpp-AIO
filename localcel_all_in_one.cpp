@@ -22,4 +22,4 @@
 
 // To compile this file directly:
 // rc ../resource.rc
-// cl localcel_all_in_one.cpp ../resource.res /std:c++20 /EHsc /O2 /I"src" /Fe:Localcel.exe
+// cl localcel_all_in_one.cpp ../resource.res /std:c++20 /EHsc /O2 /I"src" /Fe:dist/Localcel.exe
