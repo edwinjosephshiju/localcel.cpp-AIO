@@ -1,4 +1,4 @@
-# Localcel.cpp (All-in-One)
+# Localcel.cpp AIO (All-in-One)
 
 > A modular C++20 Win32 desktop app for managing local server apps, tunnels, and deployment workflows.
 
@@ -30,7 +30,7 @@ src/
 
 ## Runtime behavior
 
-- Uses a user config at: `%USERPROFILE%\.localcel\config.json`
+- Uses a user config file at: `%USERPROFILE%\.localcel\config.json`
 - Creates and manages a `localcel_workspace` with:
   - `apps/` (per-app config)
   - `logs/` (runtime logs)
