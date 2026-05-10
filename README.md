@@ -1,4 +1,4 @@
-# Localcel.cpp AIO (All-in-One)
+# Localcel.cpp AIO (All-In-One)
 
 > A modular C++20 Win32 desktop app for managing local server apps, tunnels, and deployment workflows.
 
@@ -50,7 +50,7 @@ This repository is currently Windows/MSVC-oriented.
 - `localcel_all_in_one.cpp` (single translation unit build)
 
 > Note: in the current repository state, build paths/scripts reference Windows resource inputs that are not included.  
-> To build from source, add a `resource.rc` at the repository root (with resources matching IDs used by the app, such as `IDI_APP_ICON` and `IDI_APP_LOGO`) and update script paths if your local layout differs.
+> To build from source, add a `resource.rc` at the repository root (with resources matching IDs used by the app, such as `IDI_APP_ICON` and `IDI_APP_LOGO`) and update script paths if your local layout differs. See `src/ui/WindowsUI.cpp` for the currently referenced IDs.
 
 ## Running
 
