@@ -1,0 +1,21 @@
+# Build artifacts
+*.obj
+*.res
+*.pdb
+*.iobj
+*.ipdb
+*.exp
+*.lib
+
+# Executables in root
+build.exe
+Localcel.exe
+
+# Workspace/Logs (User specific)
+/apps/
+/logs/
+config.json
+
+# IDEs
+.vs/
+.vscode/
