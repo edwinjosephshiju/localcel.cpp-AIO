@@ -8,8 +8,8 @@
 *.lib
 
 # Executables in root
-build.exe
-Localcel.exe
+/build.exe
+/Localcel.exe
 
 # Workspace/Logs (User specific)
 /apps/
